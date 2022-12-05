@@ -1,6 +1,18 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  margin: 0 10%;
+}
+
+.container {
+  margin: auto;
+  width: 80%;
+  background-color: gray;
+  padding: 3em;
 }
 
 .title {
@@ -23,11 +35,4 @@
   text-decoration: none;
   padding: 8px 16px;
   border-radius: 8px;
-}
-.nav-link-item:visited {
-  color: inherit;
-}
-.nav-link-item:hover {
-  background: linear-gradient(90deg, #187425 0%, rgba(243, 7, 7, 0) 100%);
-  opacity: 0.5;
 }/*# sourceMappingURL=style.css.map */
